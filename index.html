@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Delete Account - Indhan</title>
+
+  <style>
+
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+    }
+
+    body{
+      background:#0d0d0d;
+      font-family:Arial, sans-serif;
+      color:#ffffff;
+      line-height:1.7;
+    }
+
+    .container{
+      max-width:800px;
+      margin:auto;
+      padding:50px 20px;
+    }
+
+    .card{
+      background:#161616;
+      border:1px solid #2b2b2b;
+      border-radius:20px;
+      padding:35px;
+    }
+
+    h1{
+      color:#f5c542;
+      margin-bottom:15px;
+      font-size:42px;
+      text-align:center;
+    }
+
+    p{
+      color:#d4d4d4;
+      margin-bottom:18px;
+      font-size:17px;
+    }
+
+    label{
+      display:block;
+      margin-top:20px;
+      margin-bottom:8px;
+      color:#ffffff;
+      font-size:16px;
+    }
+
+    input, textarea{
+      width:100%;
+      padding:14px;
+      border:none;
+      border-radius:10px;
+      background:#242424;
+      color:#ffffff;
+      font-size:16px;
+    }
+
+    textarea{
+      min-height:120px;
+      resize:vertical;
+    }
+
+    button{
+      margin-top:25px;
+      width:100%;
+      padding:15px;
+      background:#f5c542;
+      color:#000000;
+      border:none;
+      border-radius:12px;
+      font-size:18px;
+      font-weight:bold;
+      cursor:pointer;
+    }
+
+    button:hover{
+      opacity:0.9;
+    }
+
+    .note{
+      background:#221b00;
+      border-left:5px solid #f5c542;
+      padding:18px;
+      border-radius:10px;
+      margin-top:25px;
+    }
+
+    .footer{
+      text-align:center;
+      color:#777;
+      margin-top:40px;
+      font-size:14px;
+    }
+
+    a{
+      color:#f5c542;
+      text-decoration:none;
+    }
+
+  </style>
+
+</head>
+<body>
+
+  <div class="container">
+
+    <div class="card">
+
+      <h1>Delete Indhan Account</h1>
+
+      <p>
+        Users can request deletion of their Indhan account
+        and associated personal data using the form below.
+      </p>
+
+      <p>
+        After verification, account deletion requests
+        are generally processed within 7-15 business days.
+      </p>
+
+      <div class="note">
+        <p>
+          Some information may be retained temporarily
+          for legal, security, fraud prevention,
+          or regulatory compliance purposes.
+        </p>
+      </div>
+
+      <form action="mailto:support.indhan@gmail.com" method="post" enctype="text/plain">
+
+        <label>Full Name</label>
+        <input type="text" name="name" required>
+
+        <label>Email Address</label>
+        <input type="email" name="email" required>
+
+        <label>Reason for Deletion (Optional)</label>
+        <textarea name="reason"></textarea>
+
+        <button type="submit">Request Account Deletion</button>
+
+      </form>
+
+      <p style="margin-top:25px;">
+        If you face any issue while requesting deletion,
+        contact us directly at:
+        <br><br>
+        <strong>Email:</strong>
+        <a href="mailto:support.indhan@gmail.com">
+          support.indhan@gmail.com
+        </a>
+      </p>
+
+    </div>
+
+    <div class="footer">
+      © 2026 Indhan. All Rights Reserved.
+    </div>
+
+  </div>
+
+</body>
+</html>
